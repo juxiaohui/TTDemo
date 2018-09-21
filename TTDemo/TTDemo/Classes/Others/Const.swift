@@ -26,3 +26,19 @@ let kTabbar_hegiht         = 49
 
 let baseTabbarImageName = "_tabbar_32x32_"
 let baseTabbarSelectedImageName = "_tabbar_press_32x32_"
+
+let BASE_URL = "https://is.snssdk.com"
+
+let device_id: Int = 6096495334
+let iid: Int = 5034850950
+
+
+
+
+
+
+
+
+
+
+

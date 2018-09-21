@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C6B4B9266B419D3314C653B /* Pods_TTDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E082AFE980AF96B9BE280B3 /* Pods_TTDemo.framework */; };
 		F743CF1A2150D94A0020504A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F743CF192150D94A0020504A /* AppDelegate.swift */; };
 		F743CF212150D94B0020504A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F743CF202150D94B0020504A /* Assets.xcassets */; };
 		F75A15802151EEBF00B7B34A /* XHHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75A157F2151EEBF00B7B34A /* XHHomeViewController.swift */; };
@@ -20,9 +21,18 @@
 		F75A15922152285E00B7B34A /* XHNoLoginHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75A15912152285E00B7B34A /* XHNoLoginHeaderView.swift */; };
 		F75A15942152286A00B7B34A /* XHNoLoginHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F75A15932152286A00B7B34A /* XHNoLoginHeaderView.xib */; };
 		F75A1597215231F500B7B34A /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75A1596215231F500B7B34A /* UIView+Extension.swift */; };
+		F75A15992153663300B7B34A /* XHProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75A15982153663300B7B34A /* XHProfileModel.swift */; };
+		F75A159C21536B8300B7B34A /* XHNetworkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75A159B21536B8300B7B34A /* XHNetworkTools.swift */; };
+		F75A159E21536DB600B7B34A /* XHProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75A159D21536DB600B7B34A /* XHProfileViewModel.swift */; };
+		F75A15C1215490AB00B7B34A /* XHProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75A15BF215490AB00B7B34A /* XHProfileCell.swift */; };
+		F75A15C2215490AB00B7B34A /* XHProfileCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F75A15C0215490AB00B7B34A /* XHProfileCell.xib */; };
+		F75A15C42154952B00B7B34A /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75A15C32154952B00B7B34A /* UIColor+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E9D2703B958B1D5377EF6CE /* Pods-TTDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TTDemo/Pods-TTDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		3E082AFE980AF96B9BE280B3 /* Pods_TTDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TTDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B94D7687D3B2D02231C37B00 /* Pods-TTDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TTDemo/Pods-TTDemo.release.xcconfig"; sourceTree = "<group>"; };
 		F743CF162150D94A0020504A /* TTDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F743CF192150D94A0020504A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F743CF202150D94B0020504A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,6 +48,12 @@
 		F75A15912152285E00B7B34A /* XHNoLoginHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XHNoLoginHeaderView.swift; sourceTree = "<group>"; };
 		F75A15932152286A00B7B34A /* XHNoLoginHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XHNoLoginHeaderView.xib; sourceTree = "<group>"; };
 		F75A1596215231F500B7B34A /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		F75A15982153663300B7B34A /* XHProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XHProfileModel.swift; sourceTree = "<group>"; };
+		F75A159B21536B8300B7B34A /* XHNetworkTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XHNetworkTools.swift; sourceTree = "<group>"; };
+		F75A159D21536DB600B7B34A /* XHProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XHProfileViewModel.swift; sourceTree = "<group>"; };
+		F75A15BF215490AB00B7B34A /* XHProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XHProfileCell.swift; sourceTree = "<group>"; };
+		F75A15C0215490AB00B7B34A /* XHProfileCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XHProfileCell.xib; sourceTree = "<group>"; };
+		F75A15C32154952B00B7B34A /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,17 +61,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C6B4B9266B419D3314C653B /* Pods_TTDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7EB0FF43A5491E3C4044CD9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E082AFE980AF96B9BE280B3 /* Pods_TTDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFC322B65F3D3BB843E06A71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E9D2703B958B1D5377EF6CE /* Pods-TTDemo.debug.xcconfig */,
+				B94D7687D3B2D02231C37B00 /* Pods-TTDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F743CF0D2150D94A0020504A = {
 			isa = PBXGroup;
 			children = (
 				F743CF182150D94A0020504A /* TTDemo */,
 				F743CF172150D94A0020504A /* Products */,
+				DFC322B65F3D3BB843E06A71 /* Pods */,
+				7EB0FF43A5491E3C4044CD9A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +164,7 @@
 		F743CF2F2150E5A70020504A /* Others */ = {
 			isa = PBXGroup;
 			children = (
+				F75A159A21536A8B00B7B34A /* Tools */,
 				F75A1595215231AE00B7B34A /* Category */,
 				F75A158B2151F7C900B7B34A /* Const.swift */,
 			);
@@ -257,6 +294,7 @@
 		F75A156B2151EAB400B7B34A /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				F75A159D21536DB600B7B34A /* XHProfileViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -272,6 +310,7 @@
 		F75A156D2151EAB400B7B34A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F75A15982153663300B7B34A /* XHProfileModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -281,6 +320,8 @@
 			children = (
 				F75A15912152285E00B7B34A /* XHNoLoginHeaderView.swift */,
 				F75A15932152286A00B7B34A /* XHNoLoginHeaderView.xib */,
+				F75A15BF215490AB00B7B34A /* XHProfileCell.swift */,
+				F75A15C0215490AB00B7B34A /* XHProfileCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -348,8 +389,17 @@
 			isa = PBXGroup;
 			children = (
 				F75A1596215231F500B7B34A /* UIView+Extension.swift */,
+				F75A15C32154952B00B7B34A /* UIColor+Extension.swift */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		F75A159A21536A8B00B7B34A /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				F75A159B21536B8300B7B34A /* XHNetworkTools.swift */,
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -359,9 +409,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F743CF282150D94B0020504A /* Build configuration list for PBXNativeTarget "TTDemo" */;
 			buildPhases = (
+				88AB5A99EC46DCA8CBEF255F /* [CP] Check Pods Manifest.lock */,
 				F743CF122150D94A0020504A /* Sources */,
 				F743CF132150D94A0020504A /* Frameworks */,
 				F743CF142150D94A0020504A /* Resources */,
+				8E225F5CFC9FE90D772E8311 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -413,26 +465,89 @@
 			files = (
 				F75A15942152286A00B7B34A /* XHNoLoginHeaderView.xib in Resources */,
 				F743CF212150D94B0020504A /* Assets.xcassets in Resources */,
+				F75A15C2215490AB00B7B34A /* XHProfileCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		88AB5A99EC46DCA8CBEF255F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TTDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E225F5CFC9FE90D772E8311 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TTDemo/Pods-TTDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/BMPlayer/BMPlayer.framework",
+				"${BUILT_PRODUCTS_DIR}/FDFullscreenPopGesture/FDFullscreenPopGesture.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/SGPagingView/SGPagingView.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BMPlayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FDFullscreenPopGesture.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SGPagingView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TTDemo/Pods-TTDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F743CF122150D94A0020504A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F75A15C1215490AB00B7B34A /* XHProfileCell.swift in Sources */,
 				F75A1597215231F500B7B34A /* UIView+Extension.swift in Sources */,
 				F75A15822151EED400B7B34A /* XHVideoViewController.swift in Sources */,
 				F75A15842151EF1800B7B34A /* XHWeitoutiaoViewController.swift in Sources */,
 				F75A158A2151F00B00B7B34A /* XHNavigationController.swift in Sources */,
 				F75A15882151EFDF00B7B34A /* XHTabBarController.swift in Sources */,
 				F75A15922152285E00B7B34A /* XHNoLoginHeaderView.swift in Sources */,
+				F75A15C42154952B00B7B34A /* UIColor+Extension.swift in Sources */,
 				F75A15802151EEBF00B7B34A /* XHHomeViewController.swift in Sources */,
+				F75A159C21536B8300B7B34A /* XHNetworkTools.swift in Sources */,
 				F75A158F2152176700B7B34A /* XHProfileViewController.swift in Sources */,
 				F743CF1A2150D94A0020504A /* AppDelegate.swift in Sources */,
+				F75A15992153663300B7B34A /* XHProfileModel.swift in Sources */,
 				F75A15862151EF3200B7B34A /* XHHuoshanViewController.swift in Sources */,
+				F75A159E21536DB600B7B34A /* XHProfileViewModel.swift in Sources */,
 				F75A158C2151F7C900B7B34A /* Const.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -556,6 +671,7 @@
 		};
 		F743CF292150D94B0020504A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E9D2703B958B1D5377EF6CE /* Pods-TTDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -576,6 +692,7 @@
 		};
 		F743CF2A2150D94B0020504A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B94D7687D3B2D02231C37B00 /* Pods-TTDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

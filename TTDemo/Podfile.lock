@@ -1,0 +1,58 @@
+PODS:
+  - Alamofire (4.7.3)
+  - BMPlayer (1.0.1):
+    - BMPlayer/Full (= 1.0.1)
+  - BMPlayer/Core (1.0.1)
+  - BMPlayer/Full (1.0.1):
+    - BMPlayer/Core
+    - NVActivityIndicatorView (~> 4.0.0)
+    - SnapKit (~> 4.0.0)
+  - FDFullscreenPopGesture (1.1)
+  - Kingfisher (4.9.0)
+  - MJExtension (3.0.15.1)
+  - MJRefresh (3.1.15.6)
+  - NVActivityIndicatorView (4.0.1):
+    - NVActivityIndicatorView/Presenter (= 4.0.1)
+  - NVActivityIndicatorView/Presenter (4.0.1)
+  - SGPagingView (1.5.3)
+  - SnapKit (4.0.0)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - Alamofire
+  - BMPlayer
+  - FDFullscreenPopGesture
+  - Kingfisher
+  - MJExtension
+  - MJRefresh
+  - SGPagingView
+  - SVProgressHUD
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - BMPlayer
+    - FDFullscreenPopGesture
+    - Kingfisher
+    - MJExtension
+    - MJRefresh
+    - NVActivityIndicatorView
+    - SGPagingView
+    - SnapKit
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  BMPlayer: 44eebf06eb01450dd14ea74b27d07c5222f0eed1
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  Kingfisher: 64539b51826b778206daa6ed815d12653caa69dd
+  MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
+  MJRefresh: 0efa19656679d70a0f47cbe76e56c2271fe53a97
+  NVActivityIndicatorView: 77ed6d7b571643e24899e7858bf9ae2ee4c21f31
+  SGPagingView: 3b54a2cdccc0134c14ff449fd266ce0d704250e1
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: ea3704b05e8ef1e9497b33c2dbfc467ffb45f28e
+
+COCOAPODS: 1.5.3
